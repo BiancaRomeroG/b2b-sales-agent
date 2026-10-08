@@ -29,6 +29,22 @@ INTEGRATION=1 uv run pytest    # unit + integración
 uv run ruff check . && uv run ruff format .
 ```
 
+## Cargar un catálogo
+
+```bash
+uv run alembic upgrade head
+uv run python -m app.ingest csv --tenant "Ferretería Central" \
+    --whatsapp "whatsapp:+14155238886" --file data/catalogo_ferreteria.csv
+# Desde PDF (usa Claude con tool calling, requiere ANTHROPIC_API_KEY):
+uv run python scripts/make_sample_pdf.py
+uv run python -m app.ingest pdf --tenant "Ferretería Central" \
+    --whatsapp "whatsapp:+14155238886" --file data/catalogo_ferreteria.pdf
+```
+
+Cada producto queda con dos representaciones para la búsqueda híbrida: una columna `tsvector`
+generada por Postgres (keyword, configuración `spanish`) y un `vector(384)` calculado con un modelo
+local vía fastembed (semántico). Re-ingestar el mismo archivo es idempotente: `ON CONFLICT (tenant_id, sku)`.
+
 ## Estructura
 
 | Carpeta | Responsabilidad |
@@ -45,4 +61,5 @@ uv run ruff check . && uv run ruff format .
 
 ## Decisiones técnicas
 
-Ver [ADR 0001: Stack base](docs/decisions/0001-stack.md).
+- [ADR 0001: Stack base](docs/decisions/0001-stack.md)
+- [ADR 0002: Modelo de datos multi-tenant y embeddings locales](docs/decisions/0002-data-model-and-embeddings.md)

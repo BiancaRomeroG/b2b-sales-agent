@@ -19,4 +19,5 @@ ENV PATH="/app/.venv/bin:$PATH"
 ENTRYPOINT []
 USER nonroot
 EXPOSE 8000
-CMD ["fastapi", "run", "src/app/main.py", "--host", "0.0.0.0", "--port", "8000"]
+# Migrations run before the server so a fresh `docker compose up` is ready to use.
+CMD ["sh", "-c", "alembic upgrade head && fastapi run src/app/main.py --host 0.0.0.0 --port 8000"]

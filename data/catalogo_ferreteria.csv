@@ -1,0 +1,43 @@
+sku,name,description,category,unit,price,stock,marca
+TRN-38-GALV,Tornillo galvanizado 3/8 x 2",Tornillo hexagonal galvanizado en caliente para madera y metal. Rosca gruesa. Caja de 100 unidades.,Tornillería,caja,85.00,120,Fixa
+TRN-14-GALV,Tornillo galvanizado 1/4 x 1",Tornillo hexagonal galvanizado para uso general. Caja de 100 unidades.,Tornillería,caja,52.00,200,Fixa
+TRN-DRY-6X1,Tornillo drywall 6 x 1",Tornillo punta aguda fosfatado negro para placa de yeso. Caja de 500.,Tornillería,caja,48.00,80,Fixa
+TRN-AUTO-8X1,Tornillo autoperforante 8 x 1",Punta broca para chapa hasta 2 mm. Zincado. Caja de 250.,Tornillería,caja,66.00,95,Fixa
+TRC-M8-GALV,Tuerca hexagonal M8 galvanizada,Tuerca métrica galvanizada grado 8. Bolsa de 100.,Tornillería,bolsa,38.00,150,Fixa
+ARA-M8-PLA,Arandela plana M8 zincada,Arandela plana zincada. Bolsa de 200.,Tornillería,bolsa,22.00,180,Fixa
+TAC-FIS-8,Taco Fischer 8 mm,Taco de expansión de nylon para ladrillo y hormigón. Bolsa de 100.,Fijaciones,bolsa,30.00,210,Fischer
+TAC-FIS-10,Taco Fischer 10 mm,Taco de expansión de nylon. Bolsa de 50.,Fijaciones,bolsa,28.00,160,Fischer
+ANC-EXP-12,Anclaje de expansión 1/2 x 4",Anclaje metálico para hormigón. Carga pesada. Unidad.,Fijaciones,unidad,9.50,400,Hilti
+CLV-2-PUL,Clavo de acero 2",Clavo con cabeza para madera. Kilo.,Fijaciones,kg,18.00,300,Acindar
+CLV-3-PUL,Clavo de acero 3",Clavo con cabeza para madera estructural. Kilo.,Fijaciones,kg,17.50,280,Acindar
+CBL-THW-12,Cable THW 12 AWG rojo,Cable unipolar de cobre 600V. Rollo de 100 m.,Eléctrico,rollo,420.00,25,Procables
+CBL-THW-14,Cable THW 14 AWG negro,Cable unipolar de cobre 600V. Rollo de 100 m.,Eléctrico,rollo,290.00,30,Procables
+CBL-TPX-2X12,Cable taller 2x12,Cable bipolar flexible con cubierta. Metro.,Eléctrico,m,8.50,500,Procables
+TOM-DOB-10A,Tomacorriente doble 10A,Tomacorriente doble con tierra. Color blanco.,Eléctrico,unidad,24.00,140,Bticino
+INT-SIM-10A,Interruptor simple 10A,Interruptor de un punto. Color blanco.,Eléctrico,unidad,18.00,160,Bticino
+TER-2X20,Térmica bipolar 20A,Interruptor termomagnético 2 polos 20A curva C.,Eléctrico,unidad,95.00,45,Schneider
+TER-2X32,Térmica bipolar 32A,Interruptor termomagnético 2 polos 32A curva C.,Eléctrico,unidad,110.00,38,Schneider
+CIN-AIS-19,Cinta aisladora 19 mm,Cinta aislante PVC negra 19 mm x 20 m.,Eléctrico,unidad,9.00,250,3M
+TUB-PVC-12,Tubo PVC 1/2" agua fría,Tubo de PVC presión para agua fría. Tira de 6 m.,Plomería,tira,38.00,70,Tigre
+TUB-PVC-34,Tubo PVC 3/4" agua fría,Tubo de PVC presión. Tira de 6 m.,Plomería,tira,52.00,60,Tigre
+COD-PVC-12,Codo PVC 1/2" 90°,Codo de PVC presión a 90 grados.,Plomería,unidad,2.50,600,Tigre
+TEE-PVC-12,Tee PVC 1/2",Tee de PVC presión.,Plomería,unidad,3.00,500,Tigre
+LLV-ESF-12,Llave esférica 1/2",Llave de paso esférica de bronce. Paso total.,Plomería,unidad,45.00,90,FV
+TFL-PEG-250,Teflón 1/2" x 10 m,Cinta de teflón para sellado de roscas.,Plomería,unidad,4.50,300,Tigre
+PEG-PVC-500,Adhesivo para PVC 500 ml,Pegamento para tubos de PVC presión. Lata de 500 ml.,Plomería,unidad,42.00,55,Tigre
+PIN-LAT-BLA-20,Pintura látex blanca 20 L,Pintura látex interior-exterior lavable. Balde de 20 litros.,Pinturas,balde,480.00,22,Monopol
+PIN-LAT-BLA-4,Pintura látex blanca 4 L,Pintura látex interior lavable. Lata de 4 litros.,Pinturas,lata,115.00,48,Monopol
+PIN-ESM-NEG-1,Esmalte sintético negro 1 L,Esmalte sintético brillante para metal y madera.,Pinturas,lata,58.00,60,Monopol
+ROD-22,Rodillo de lana 22 cm,Rodillo para látex con mango.,Pinturas,unidad,28.00,75,Tigre
+BRO-3,Brocha 3",Brocha de cerda sintética 3 pulgadas.,Pinturas,unidad,22.00,110,Tigre
+THI-1L,Thinner 1 L,Diluyente para esmalte sintético.,Pinturas,lata,26.00,90,Monopol
+CEM-50,Cemento Portland 50 kg,Cemento Portland tipo IP. Bolsa de 50 kg.,Construcción,bolsa,62.00,350,Viacha
+YES-25,Yeso de construcción 25 kg,Yeso para revoque y moldura.,Construcción,bolsa,28.00,120,Viacha
+HIE-10-12,Hierro corrugado 10 mm x 12 m,Barra de acero corrugado para hormigón armado.,Construcción,barra,98.00,200,Acindar
+HIE-12-12,Hierro corrugado 12 mm x 12 m,Barra de acero corrugado.,Construcción,barra,140.00,150,Acindar
+MAL-ELE-15,Malla electrosoldada 15x15,Panel 2 x 6 m alambre 4.2 mm.,Construcción,panel,185.00,40,Acindar
+TAL-ANG-115,Amoladora angular 115 mm 850W,Amoladora eléctrica con disco de 4 1/2". Incluye llave.,Herramientas,unidad,420.00,15,Bosch
+TAL-PER-13,Taladro percutor 13 mm 650W,Taladro percutor con mandril de 13 mm y maletín.,Herramientas,unidad,480.00,12,Bosch
+DSC-COR-115,Disco de corte metal 115 mm,Disco abrasivo para amoladora 4 1/2". Caja de 25.,Herramientas,caja,95.00,60,Norton
+MAR-CAR-20,Martillo carpintero 20 oz,Martillo con mango de fibra y sacaclavos.,Herramientas,unidad,85.00,40,Stanley
+CIN-MET-5,Cinta métrica 5 m,Cinta métrica con freno y clip.,Herramientas,unidad,32.00,95,Stanley

@@ -13,6 +13,7 @@ class Settings(BaseSettings):
     redis_url: str = "redis://localhost:6379/0"
 
     anthropic_api_key: str = ""
+    llm_extract_model: str = "claude-sonnet-5"
     openai_api_key: str = ""
     twilio_account_sid: str = ""
     twilio_auth_token: str = ""
